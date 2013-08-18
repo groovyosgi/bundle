@@ -1,8 +1,8 @@
 # Groovy OSGi Bundle
 
-This sample project contains an OSGi bundle written in Groovy & a test fragment also written in Groovy.
+This sample project contains an OSGi bundle written in Groovy & a test fragment also written in Groovy. It also provides a Maven configuration to build Groovy OSGi bundles via Tycho. 
 
-## Run via Maven
+## Build & Test via Maven Tycho
 
 ```shell
 $ git clone https://github.com/groovyosgi/bundle.git   
