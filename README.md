@@ -12,4 +12,4 @@ $ mvn clean install
 
 ## Eclipse
 * Import the bundle and its fragment via "File->Import->General->Existing Projects into Workspace".
-* In order to execute the test from Eclipse, execute `GroovyActivatorTest.launch` via "Run As"
+* In order to execute the test from Eclipse, execute `GroovyActivatorTest.launch` via "Run As".
