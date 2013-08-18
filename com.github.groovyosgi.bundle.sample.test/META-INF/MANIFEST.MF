@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Groovy OSGi Bundle Sample Test
+Bundle-SymbolicName: com.github.groovyosgi.bundle.sample.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Lars Pfannenschmidt
+Fragment-Host: com.github.groovyosgi.bundle.sample;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: groovy.lang,
+ org.codehaus.groovy.reflection,
+ org.codehaus.groovy.runtime,
+ org.codehaus.groovy.runtime.callsite,
+ org.codehaus.groovy.runtime.typehandling,
+ org.hamcrest;core=split,
+ org.junit;version="4.0.0",
+ org.junit.matchers;version="4.0.0",
+ org.junit.runner;version="4.0.0"

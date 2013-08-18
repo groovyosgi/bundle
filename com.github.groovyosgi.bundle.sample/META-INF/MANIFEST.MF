@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Groovy OSGi Bundle Sample
+Bundle-SymbolicName: com.github.groovyosgi.bundle.sample
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.github.groovyosgi.bundle.sample.GroovyActivator
+Bundle-Vendor: Lars Pfannenschmidt
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0",
+ groovy.lang,
+ org.codehaus.groovy.reflection,
+ org.codehaus.groovy.runtime,
+ org.codehaus.groovy.runtime.callsite,
+ org.codehaus.groovy.runtime.typehandling

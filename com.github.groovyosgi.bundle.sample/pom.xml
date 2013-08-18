@@ -1,0 +1,30 @@
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.groovyosgi</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+		<artifactId>bundle</artifactId>
+	</parent>
+
+	<artifactId>com.github.groovyosgi.bundle.sample</artifactId>
+	<packaging>eclipse-plugin</packaging>
+
+	<name>Groovy OSGi Bundle Sample</name>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.version}</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+
